@@ -1,0 +1,32 @@
+#chat-screen {
+    background-color: #abc1d1;
+}
+
+.status-bar--1{
+    background-color: #abc1d1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    /* margin-bottom: px; */
+}
+.status-bar--1__column {
+    width: 33%;
+}
+.status-bar--1__column:first-child span{
+    margin-right: 5px;
+}
+.status-bar--1__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.status-bar--1__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.status-bar--1__column .fa-battery-full{
+    margin: 0px 5px;
+}
